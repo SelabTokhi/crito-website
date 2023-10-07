@@ -1,3 +1,13 @@
 header {
-    background-color: ;
+    background-color: #F0EFE9;
+    display: flex;
+    padding: 5px;
+
+    .container {
+        display: flex;
+
+        @media (min-width: 2500px) {
+            max-width: 2048px;
+        }
     }
+}
